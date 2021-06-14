@@ -1,0 +1,124 @@
+@import "home.scss";
+@import "footer.scss";
+@import "contacto.scss";
+
+
+body{
+    margin:auto;
+    padding: auto;
+    
+}
+
+.header{
+    display:flex;
+    width:100%;
+    
+    background-color: #222222;
+    display:flex;
+    flex-direction: row;
+    flex: content;
+    flex-wrap: wrap;
+}
+
+.barra-cuenta{
+    background-color:#bdd8db;
+    width:100%;
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+   
+    
+}
+
+.acceso_usuario{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    
+}
+.seccion_barra a{
+    color: white;
+    text-decoration: none;
+    flex-direction: row;
+   margin-left: 10px; 
+    
+    
+
+}
+.seccion_barra a:hover{
+    color: #222222;
+    text-decoration: none;
+    
+}
+.iconos_redes_sociales {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    margin-left: 60%;
+    margin-top: 1%;
+
+   
+}
+.listado_redes a{
+    margin-left: 5px;
+    flex-wrap: wrap;
+    display: flex;
+   
+   
+    color:white;
+    padding-left: 2px;
+    justify-content: space-between;
+}
+.listado_redes a:hover{
+   
+   
+    color:#222222;
+   
+}
+#contenedor{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    //margin-top: -1%;
+    margin-bottom: 1%;
+    
+}
+.listado{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+   
+}
+.seccion a{
+    color:white;
+}
+.seccion a:hover{
+    color:#bdd8db;
+}
+
+.slogan{
+    display:flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 3%;
+    flex-wrap: wrap;
+    color:#bdd8db;
+    width: 30%;
+}
+
