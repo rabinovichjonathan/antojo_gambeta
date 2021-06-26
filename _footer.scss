@@ -17,39 +17,60 @@
 }
 .iconoMail{
     display:flex;
-    justify-content: space-between;
+    margin-top: 1%;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 5%;
+    margin-left: 3%;
+    
    
     
 }
 
-.antojo_mail{
-    margin-left: 2%;
+.antojo_mail a{
+    padding-left: 2%;
     text-decoration: none;
     color: #222222;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+   
     
 }
 
-.antojo_mail:hover{
+.antojo_mail a:hover{
     color: white;
 }
 .logoMail a{
     flex-wrap: wrap;
+    display: flex;
+    color: #222222;
+    flex-direction: row;
+    margin-top:3%;
+    
+    
     
    
+}
+
+.logoMail a:hover{
+    color:white;
 }
 .iconos_redes_sociales_footer{
     list-style: none;
     flex-wrap: wrap;
     flex-direction: row;
     display: flex;
-   margin-left: 65%;
+   margin-left: 50%;
+   margin-right:5%;
+  
 }
 .listado_redes_footer a{
     color:#222222;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 3px;
+    flex-direction: row;
+    display: flex;
     
     
 
